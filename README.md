@@ -1,39 +1,20 @@
 # Azure Speech - Language Learning Assistant
 
-Project leveraging **Azure Speech** for speech recognition and synthesis, designed to facilitate foreign language learning.
+## Overview
+The aim of this project is to help people learn languages by checking their pronunciation or learning how to pronounce words, and also to translate what they are saying into different languages. To achieve this, it was used [Azure AI Foundry](https://azure.microsoft.com/en-us/products/ai-studio/) for __speech recognition__, __text-to-speech__, and __speech translation__. The available languages can be found [here](https://learn.microsoft.com/en-us/azure/ai-services/speech-service/language-support?utm_source=chatgpt.com&tabs=stt).
 
-### 🚀 Features
-- **Speech-to-Text**: Transcribes student speech into written text.
-- **Text-to-Speech**: Reads words/phrases aloud using natural-sounding voices to assist listening and repetition.
-- **Pronunciation Correction**: Provides immediate feedback on the student's pronunciation.
-- **Multilingual Support**: Supports Italian, English, Spanish, French, and many other languages.
+## Getting started
+### Contents
+There are three notebooks:
+- **SoundCorrect**: This will help you with your pronunciation by detecting what you have said.
+- **SoundItOut**: If you are unsure how to pronounce something, you can check it here by typing it.
+- **SoundTranslate**: If you want to know what you have said in another language, this will help you find out by translating it into the desired languages.
 
-### 🛠️ Technologies Used
-- **Python**: Programming language.
-- **Azure Speech**: Cloud service for speech recognition and synthesis.
-- **Git** and **GitHub**: Code versioning and collaboration.
 
-### 💻 Installation and Usage
-1. Prerequisites
-- Python 3.8+ installed on your computer.
-- An Azure account with an active Speech resource.
-- Install the required library azure-cognitiveservices-speech
 
-- **Speech-to-Text**: Trascrive il parlato dello studente in testo scritto.
-- **Text-to-Speech**: Pronuncia parole/frasi con voci naturali per facilitare l'ascolto e la ripetizione.
-- **Correzione della Pronuncia**: Fornisce feedback immediato sulla pronuncia dello studente.
-- **Multilingua**: Supporta italiano, inglese, spagnolo, francese e molte altre lingue.
+## License 
+This project is licensed under the MIT License. It is intended for educational purposes and personal use. For any commercial use or redistribution, please refer to the terms mentioned in the license file.
 
-## 🛠️ Tecnologie Utilizzate
-- **Python**: Linguaggio di programmazione.
-- **Azure Speech**: Servizio cloud per riconoscimento e sintesi vocale.
-- **Git** e **GitHub**: Versionamento del codice e collaborazione.
+> [!Note]
+>  This repository is primarily for educational purposes
 
-## 💻 Installazione e Utilizzo
-
-### 1. Prerequisiti
-- **Python 3.8+** installato sul tuo computer.
-- Un account Azure con una risorsa **Speech** attiva.
-- Libreria `azure-cognitiveservices-speech` installata:
-   ```bash
-   pip install azure-cognitiveservices-speech
