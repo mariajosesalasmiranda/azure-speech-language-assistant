@@ -18,7 +18,7 @@ There are three notebooks:
   2. Create a new resource in the Azure AI Services section.  
   3. Retrieve the API key and endpoint URL from the resource's settings.  
 
-#### Install 
+### Install 
 1. Clone the repository:
    ```bash
    git clone https://github.com/mariajosesalasmiranda/azure-speech-language-assistant.git
@@ -28,7 +28,7 @@ There are three notebooks:
    cd azure-speech-language-assistant
    ```
 
-#### Usage
+### Usage
 To run the notebooks:
 1. Open Jupyter Notebook or any other compatible environment.
 2. Navigate to the desired notebook (e.g., `SoundCorrect.ipynb`, `SoundItOut.ipynb`, or `SoundTranslate.ipynb`).
