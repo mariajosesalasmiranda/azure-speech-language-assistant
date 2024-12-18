@@ -10,7 +10,13 @@ There are three notebooks:
 - **SoundItOut**: If you are unsure how to pronounce something, you can check it here by typing it.
 - **SoundTranslate**: If you want to know what you have said in another language, this will help you find out by translating it into the desired languages.
 
+### Prerequisites
+- python +3.8
+- Azure Account 
 
+#### Install 
+
+#### Usage
 
 ## License 
 This project is licensed under the MIT License. It is intended for educational purposes and personal use. For any commercial use or redistribution, please refer to the terms mentioned in the license file.
