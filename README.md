@@ -11,14 +11,14 @@ There are three notebooks:
 - **SoundTranslate**: If you want to know what you have said in another language, this will help you find out by translating it into the desired languages.
 
 ### Prerequisites
-- Python +3.8
-- Azure Account 
+- Python >=3.8. Download it from [python.org](https://www.python.org/downloads/).
+- Azure Account. You can create an account in the [Azure portal](https://azure.microsoft.com/en-us/get-started/azure-portal).
 - **Azure AI API Keys**: You will need your own API keys for Speech services. To generate these:  
   1. Log in to your [Azure AI Portal](https://azure.microsoft.com/en-us/solutions/ai/?msockid=3009fcab721967863423e8d173d86651).  
   2. Create a new resource in the Azure AI Services section.  
   3. Retrieve the API key and endpoint URL from the resource's settings.  
 
-#### Install 
+### Install 
 1. Clone the repository:
    ```bash
    git clone https://github.com/mariajosesalasmiranda/azure-speech-language-assistant.git
@@ -28,7 +28,7 @@ There are three notebooks:
    cd azure-speech-language-assistant
    ```
 
-#### Usage
+### Usage
 To run the notebooks:
 1. Open Jupyter Notebook or any other compatible environment.
 2. Navigate to the desired notebook (e.g., `SoundCorrect.ipynb`, `SoundItOut.ipynb`, or `SoundTranslate.ipynb`).
@@ -36,6 +36,8 @@ To run the notebooks:
 
 ## License 
 This project is licensed under the MIT License. It is intended for educational purposes and personal use. For any commercial use or redistribution, please refer to the terms mentioned in the license file.
+
+---
 
 > [!Note]
 >  This repository is primarily for educational purposes
