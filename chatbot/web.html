@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoundBridge - Learn Languages</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f9f9fb;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        /* Header Section */
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        header img {
+            width: 80px;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        header h1 {
+            font-size: 1.8rem;
+            color: #ff6f3c; /* Accent color from the logo */
+        }
+
+        header p {
+            font-size: 1rem;
+            color: #555;
+            margin-bottom: 5px;
+        }
+
+        /* Chat Container */
+        #chat-container {
+            width: 400px;
+            max-width: 90%;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background: #fff;
+            padding: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        #messages {
+            height: 300px;
+            overflow-y: auto;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 10px;
+            background-color: #fafafa;
+            margin-bottom: 10px;
+        }
+
+        #messages div {
+            margin-bottom: 8px;
+        }
+
+        #messages .user {
+            color: #007bff;
+            text-align: right;
+        }
+
+        #messages .bot {
+            color: #28a745;
+        }
+
+        #input-container {
+            display: flex;
+        }
+
+        #input-container input {
+            flex: 1;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+
+        #input-container button {
+            padding: 10px 15px;
+            margin-left: 5px;
+            border: none;
+            background: #ff6f3c;
+            color: white;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        #input-container button:hover {
+            background: #ff5722;
+        }
+
+        /* Footer Section */
+        footer {
+            margin-top: 20px;
+            font-size: 0.9rem;
+            color: #777;
+        }
+
+        footer a {
+            color: #ff6f3c;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <img src="Designer.png" alt="SoundBridge Logo">
+        <h1>SoundBridge</h1>
+        <p>Your passport to confident communication</p>
+        <p>Breaking barriers, building bridges</p>
+        <p>Your voice, your bridge to the world</p>
+    </header>
+
+    <!-- Chat Section -->
+    <div id="chat-container">
+        <div id="messages"></div>
+        <div id="input-container">
+            <input type="text" id="user-input" placeholder="Type your message here...">
+            <button onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>© 2025 SoundBridge. <a href="#">Privacy Policy</a> | <a href="#">Contact Us</a></p>
+    </footer>
+
+    <script src="chatbot.js"></script>
+</body>
+</html>
