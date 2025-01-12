@@ -12,13 +12,13 @@ CORS(app)
 # Initialize Ollama model
 model = OllamaLLM(model="phi3")
 template = """
-Answer the question below.
+Answer the question below in a concise and simple manner.
 
 Here is the conversation history: {context}
 
 Question: {question}
 
-Answer:
+Brief Answer:
 """
 prompt = ChatPromptTemplate.from_template(template)
 
